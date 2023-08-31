@@ -1,12 +1,2 @@
 #!/bin/bash
-
-# Get the user's home directory using the tilde expansion
-home_directory="~"
-eval "home_directory=$home_directory"
-
-# Change the working directory to the user's home directory
-cd "$home_directory"
-
-# Print the current working directory to confirm the change
-pwd
-
+cd ~
